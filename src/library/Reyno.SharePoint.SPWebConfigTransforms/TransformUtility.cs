@@ -11,7 +11,7 @@ namespace Reyno.SharePoint.SPWebConfigTransforms {
         public static void ApplyTransform(SPWebApplication webapp, string transform) {
             
             // create the job to update all web.config files on all front end web servers
-            WebConfigTransformJob.ApplyTransform(webapp, transform);
+            SPWebConfigTransformJob.ApplyTransform(webapp, transform);
 
         }
 

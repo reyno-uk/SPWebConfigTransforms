@@ -7,15 +7,15 @@ using Microsoft.SharePoint.Administration;
 namespace Reyno.SharePoint.SPWebConfigTransforms {
 
     [Guid("ED180730-8A65-4287-9520-5087B93D6E84")]
-    public class WebConfigTransformJob : SPJobDefinition {
+    public class SPWebConfigTransformJob : SPJobDefinition {
 
         public static readonly string JobName = "SharePointWebConfigTransforms";
         public static readonly string JobTitle = "SharePoint web.config transforms job";
 
 
-        public WebConfigTransformJob() { }
+        public SPWebConfigTransformJob() { }
 
-        public WebConfigTransformJob(SPWebApplication webapp, string transform)
+        public SPWebConfigTransformJob(SPWebApplication webapp, string transform)
             : base(JobName, webapp, null, SPJobLockType.None) {
 
             // set up the title and the schedule for the job
@@ -59,7 +59,7 @@ namespace Reyno.SharePoint.SPWebConfigTransforms {
         public static void ApplyTransform(SPWebApplication webapp, string transform) {
 
             // create the job
-            var job = new WebConfigTransformJob(webapp, transform);
+            var job = new SPWebConfigTransformJob(webapp, transform);
 
             // save it
             job.Update();
