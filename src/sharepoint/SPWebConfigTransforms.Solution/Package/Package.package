@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8007a5f3-e5b3-4121-a64d-b3ba3e5dc174" solutionId="8007a5f3-e5b3-4121-a64d-b3ba3e5dc174" resetWebServer="false" title="Reyno - Web Config Transforms" sharePointProductVersion="15.0" name="Reyno.SPWebConfigTransforms" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="Reyno.SharePoint.SPWebConfigTransforms.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\..\library\Reyno.SharePoint.SPWebConfigTransforms\Reyno.SharePoint.SPWebConfigTransforms.csproj" />
+    <customAssembly location="Microsoft.Web.XmlTransform.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\library\Reyno.SharePoint.SPWebConfigTransforms\bin\Debug\Microsoft.Web.XmlTransform.dll" />
+  </assemblies>
+</package>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Reyno.SPWebConfigTransforms</id>
+    <version>1.0.0</version>
+    <authors>Russell Seamer</authors>
+    <owners>Russell Seamer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Quick way to add the SPWebConfigTransforms reference to your project</description>
+    <tags>reyno spwebconfigtransforms</tags>
+    <references>
+      <reference file="Reyno.SharePoint.SPWebConfigTransforms.dll"/>
+    </references>
+  </metadata>
+  <files>
+    <file src="lib\Reyno.SharePoint.SPWebConfigTransforms.dll" target="lib/net45"/>
+  </files>
+</package>
