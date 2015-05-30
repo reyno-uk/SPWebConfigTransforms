@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Solution xmlns="http://schemas.microsoft.com/sharepoint/">
-<ActivationDependencies>
-
-</ActivationDependencies>
+  <ActivationDependencies>
+    <ActivationDependency SolutionId="8007a5f3-e5b3-4121-a64d-b3ba3e5dc174" SolutionName="Reyno.SPWebConfigTransforms" SolutionTitle="Reyno - Web Config Transforms" SolutionUrl="https://github.com/reyno-uk/SPWebConfigModifications" />
+  </ActivationDependencies>
 </Solution>
