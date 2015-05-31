@@ -41,6 +41,10 @@
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Reyno.SharePoint.SPWebConfigTransforms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=29e595c5357fdc03, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Reyno.SPWebConfigTransforms.1.0.0\lib\net45\Reyno.SharePoint.SPWebConfigTransforms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -61,6 +65,7 @@
       <FeatureId>{0278345f-989b-4f4f-a644-8e18a14aac7e}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="packages.config" />
     <None Include="Package\Package.package">
       <PackageId>{05c54c86-f198-4786-bc63-e99c6d8b41c5}</PackageId>
     </None>
@@ -77,12 +82,6 @@
     <Content Include="Features\WebApp\WebApp.Template.xml">
       <DependentUpon>WebApp.feature</DependentUpon>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\library\Reyno.SharePoint.SPWebConfigTransforms\Reyno.SharePoint.SPWebConfigTransforms.csproj">
-      <Project>{fa7f55bb-926e-498f-b072-30dfae49ff1c}</Project>
-      <Name>Reyno.SharePoint.SPWebConfigTransforms</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

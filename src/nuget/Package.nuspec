@@ -8,11 +8,5 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Quick way to add the SPWebConfigTransforms reference to your project</description>
     <tags>reyno spwebconfigtransforms</tags>
-    <references>
-      <reference file="Reyno.SharePoint.SPWebConfigTransforms.dll"/>
-    </references>
   </metadata>
-  <files>
-    <file src="lib\Reyno.SharePoint.SPWebConfigTransforms.dll" target="lib/net45"/>
-  </files>
 </package>
