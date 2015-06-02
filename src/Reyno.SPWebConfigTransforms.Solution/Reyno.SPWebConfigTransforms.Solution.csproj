@@ -7,8 +7,8 @@
     <ProjectGuid>{9974B100-AB41-4484-B74E-0453AED8D54B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SPWebConfigTransforms.Solution</RootNamespace>
-    <AssemblyName>SPWebConfigTransforms.Solution</AssemblyName>
+    <RootNamespace>Reyno.SharePoint.SPWebConfigTransforms</RootNamespace>
+    <AssemblyName>Reyno.SharePoint.SPWebConfigTransforms.Solution</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -64,9 +64,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\library\Reyno.SharePoint.SPWebConfigTransforms\Reyno.SharePoint.SPWebConfigTransforms.csproj">
+    <ProjectReference Include="..\Reyno.SPWebConfigTransforms.Library\Reyno.SPWebConfigTransforms.Library.csproj">
       <Project>{fa7f55bb-926e-498f-b072-30dfae49ff1c}</Project>
-      <Name>Reyno.SharePoint.SPWebConfigTransforms</Name>
+      <Name>Reyno.SPWebConfigTransforms.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
