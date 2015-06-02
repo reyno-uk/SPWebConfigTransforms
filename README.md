@@ -7,9 +7,9 @@ It uses the transform functionality that is available when creating web solution
 Visual Studio.  This transform functionality is available in the Microsoft.Web.XmlTransform
 library.  You can add this to any project using nuget:
 
-    ```shell
-    install-package microsoft.web.xdt
-    ```
+	```
+	install-package microsoft.web.xdt
+	```
 
 ## Reyno.SPWebConfigTransforms.Library
 
